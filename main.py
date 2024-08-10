@@ -19,7 +19,7 @@ while True:
     val1 = str(input("Ingresa las palabras que necesitas obtener su significado: "))
 
     # Usar f-string para formatear val2 correctamente
-    val2 = f"Que tipo de palabra es '{val1}' y que significado tiene, dame 1 ejemplo, en ingles y español."
+    val2 = f'Que tipo de palabra es "{val1}" y que significado tiene, dame 1 ejemplo, en ingles y español.'
 
     my_list.append(val2)
     
